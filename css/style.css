@@ -1,0 +1,124 @@
+/* Corpo */
+
+body {
+	font-family: Nunito, sans-serif;
+	color: #1c1c1c;
+}
+
+h1, h2, h3 {
+	font-family: Asap, sans-serif;
+	color: #000000;
+}
+
+
+
+
+
+/*Cabeçalho*/
+
+header {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url("../img/computacao.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		color: #FFFFFF;
+		text-align: center;
+		padding: 20px;
+}
+
+
+header h1{
+
+	color: #FFFFFF;
+}
+
+header p{
+	margin-bottom: 2em;
+
+}
+
+#sobre{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px 10px 20px 20px;
+		background-color: #191970;
+		color: #FFFFFF;
+}
+
+#sobre h2{
+	color: #FFFFFF;
+}
+
+#sobre p {
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
+
+#contato{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px 10px 20px 20px;
+		background-color: #191970;
+		color: #191970;
+}
+#contato h2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #191970;
+	color: #FFFFFF ;
+}
+
+#contato div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #FFFFFF;
+	color: #FFFFFF ;
+}
+
+#projetos{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px 10px 20px 20px;
+		background-color: #191970;
+		color: #191970;
+}
+
+#projetos h2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px 10px 20px 20px;
+		background-color: #191970;
+		color: #191970;
+}
+
+#projetos div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 10px 10px 20px 20px;
+		background-color: #191970;
+		color: #191970;
+}
+
+#projetos p{
+	color: #FFFFFF
+}
